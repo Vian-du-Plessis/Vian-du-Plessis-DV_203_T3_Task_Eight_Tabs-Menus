@@ -5,14 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <TextView
+    <Button
+        android:id="@+id/changeNavigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Home Fragment"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:textColor="@color/black"/>
-
+        android:text="Drawer Navigation"
+        android:layout_gravity="center"/>
 </FrameLayout>

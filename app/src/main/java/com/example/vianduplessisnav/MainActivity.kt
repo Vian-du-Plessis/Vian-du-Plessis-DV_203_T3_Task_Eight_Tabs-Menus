@@ -17,14 +17,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setUpTabBar()
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
+//        binding = ActivityMainBinding.inflate(layoutInflater)
+//
+//        setContentView(binding.root)
 
-        setContentView(binding.root)
-
-        binding.changeNavigation.setOnClickListener{
-            val intent = Intent(this, DrawerActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.changeNavigation.setOnClickListener{
+//            val intent = Intent(this, DrawerActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
     private fun setUpTabBar() {
